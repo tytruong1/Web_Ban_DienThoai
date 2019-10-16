@@ -1,0 +1,33 @@
+@charset "utf-8";
+.noidung
+{
+	padding-left:30px;	
+}
+.noidung .row
+{
+	margin-top:20px;
+
+}
+.noidung .row img
+{
+	height:200px;	
+}
+.tem
+{
+	text-align:center;	
+}
+.noidung a{
+color:black;
+}
+.noidung a:hover{
+color:#C33;
+}
+.tem img:hover
+{
+	transform:scale(0.8);
+	transition:all 1s;
+}
+.tem div
+{
+	font-size:15px;
+}

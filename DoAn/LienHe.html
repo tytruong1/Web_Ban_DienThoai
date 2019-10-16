@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Liên Hệ</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
+<link href="cssLienHe.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="header container">
+    <div class="top-header"> 
+          <input type="tetx" placeholder="search" />
+          <a href="#"><img class="search" src="img/search.png" width="30px" height="30px" alt="lỗi hình ảnh " title="tìm kiếm"  /></a>
+          <a href="TrangChu.html"><img class="logo" src="img/logo-mobi.png" width="200px"  height="200px" alt="Lỗi hình ảnh" title="logo ảnh" /></a>
+          <div id="menu">
+                <ul class="nav menu" >
+                    <a class="menu">
+                     <div class="col-menu">
+                     <li class="dropdown">
+                        <button data-toggle="dropdown" class="dropdown-toggle btn btn-info" href="#">Đăng nhập</button>
+                        <div class="dropdown-menu">
+                        <form class="dangnhap">
+                          <div class="control-group">
+                          Tên đăng nhập/Sđt
+                            <input type="text" class="span2" id="tai-khoan" placeholder="Tên đăng nhập/sđt">
+                          </div>
+                          <div>
+                          Nhập mật khẩu
+                            <input type="password" class="span2" id="mat-khau" placeholder="Mật khẩu">
+                          </div>
+                          <div>
+                            <label class="checkbox">
+                            <input type="checkbox"> Lưu mật khẩu
+                            </label>
+                            <button type="submit" class="btn btn-success">Đăng nhập</button>
+                          </div>
+                        </form>
+                        </div>
+                    </li>
+                    </div>
+                   
+                    </a>
+                 </ul>
+                </div>
+      	</div>
+      <div class="row">
+           <div class="col-2"><a class="a_menu" href="" target="_blank">OPPO</a></div>
+           <div class="col-2"><a class="a_menu"href="" target="_blank">ASUS</a></div>
+           <div class="col-2"><a class="a_menu"href="" target="_blank">IPHONE</a></div>
+           <div class="col-2"><a class="a_menu"href="" target="_blank">SAMSUNG</a></div>
+           <div class="col-2"><a class="a_menu"href="" target="_blank">VIVO</a></div>
+           <div class="col-2"><a class="a_menu" href="" target="_blank">HUAWEI</a></div>
+      </div>
+      <hr/>
+        <!-- start liên hệ-->
+        <div class="lienhe">
+                <div class="lienhe_phantren"> 
+                    <hr/>
+                    <h3>Liên Hệ</h3>
+                    <hr/>
+                </div>
+                <div class="lienhe_phanduoi"> 
+                    <div class="lienhe "> 
+                        <form class="row lienhe_tt">
+                            <div class="col-md-4 "> <input class="a" type="text" placeholder="Tên" required=""></div>
+                            <div class="col-md-4 " ><input class="a" type="text" placeholder="E-mail" required=""></div>
+                            <div class="col-md-4 " ><input class="a" type="text" placeholder="Số điện thoại" required=""></div>
+                        </form>
+                    </div>
+                    <div class=" lienhe ">
+                        <form>
+                            <textarea class="ghimess"   placeholder="Đóng góp ý kiến"   ></textarea>
+                            <input class="btn btn-success" onclick="guithanhcong()" type="submit" value="SEND">
+                        </form>	
+                    </div>
+                </div>
+        </div>
+        <!-- end liên hệ-->
+         <!--start-map-->
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10120.556497001287!2d18.76800955!3d50.6431073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710db154211990b%3A0x2d1cfe0737d73ec1!2sRusinowice%2C+Poland!5e0!3m2!1sen!2sin!4v1434621332678" frameborder="0" style="border:0"></iframe>
+          </div>
+	      <!--end-map-->
+  <div class="top-footer">
+               <hr class="soften">
+                <p class="manufactures">Manufactures</p>
+                <hr class="soften">
+            </div>
+            <div class="top-footer_a">
+                    <div class="row">
+                            <div class="imgmanu">
+                                <a href="https://www.apple.com" target="_blank" ><img class="imgmanu2" src="img/1a.PNG" alt=""></a>
+                            </div>
+                            <div class="imgmanu">
+                                <a href="https://oppomobile.vn/" target="_blank" ><img class="imgmanu2" src="img/2a.PNG" alt=""></a>
+                            </div>
+                            <div class="imgmanu">
+                                <a href="http://www.vivo.com/vn/" target="_blank" ><img class="imgmanu2" src="img/3a.PNG" alt=""></a>
+                            </div>
+                            <div class="imgmanu">
+                                <a href="https://www.asus.com/vn/" target="_blank" ><img class="imgmanu2" src="img/4a.PNG" alt=""></a>
+                            </div>
+                            <div class="imgmanu">
+                                <a href="https://www.samsung.com/vn/" target="_blank" ><img class="imgmanu2" src="img/5a.PNG" alt=""></a>
+                            </div>
+                            <div class="imgmanu">
+                                <a href="https://www.huawei.com/vn/" target="_blank" ><img class="imgmanu2" src="img/6a.PNG" alt=""></a>
+                            </div>
+                        </div>
+        </div>
+   </div>
+   
+  <div class="footer">
+  	<div class="gioithieu">
+    <a class="a_gioithieu" href="ThongTinNhom.html" target="new">THÔNG TIN NHÓM</a>
+    </div>
+    <div class="dangki">
+    <a class="a_dangki" href="DangKy.html" target="new">ĐĂNG KÝ</a>
+    </div>
+    <div class="lienhe">
+    <a class="a_lienhe" href="LienHe.html" target="new">LIÊN HỆ</a>
+    </div>
+ </div>
+ <div class="tail">
+ © 2018 Free Style All Rights Reserved | Design by TTT 
+ </div>
+  		
+</div>
+</body>
+</html>
